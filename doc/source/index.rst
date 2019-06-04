@@ -6,9 +6,12 @@
 Welcome to tabslash's documentation!
 ====================================
 
+.. automodule:: tabslash.tabslash
+    :members:
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
 
 
