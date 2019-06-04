@@ -6,8 +6,25 @@
 Welcome to tabslash's documentation!
 ====================================
 
-.. automodule:: tabslash.tabslash
-    :members:
+.. tabs:: 
+    .. group-tab:: no-slash
+
+        .. autofunction:: tabslash.tabslash.foo
+
+    .. group-tab:: with-slash
+
+        .. autofunction:: tabslash.tabslash.foo(a, b, /)
+
+
+.. tabs:: 
+    .. group-tab:: no-slash
+
+        .. autofunction:: tabslash.tabslash.bar
+
+    .. group-tab:: with-slash
+
+        .. autofunction:: tabslash.tabslash.bar(a, /, b, *, c=1)
+
 
 .. toctree::
     :maxdepth: 2
