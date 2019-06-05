@@ -3,25 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to tabslash's documentation!
-====================================
+Proof-of-Concept for Tabbed PEP570 Docs
+=======================================
 
 .. tabs:: 
-    .. group-tab:: no-slash
+    .. group-tab:: |api_ess|
 
         .. autofunction:: tabslash.tabslash.foo
 
-    .. group-tab:: with-slash
+    .. group-tab:: |api_full|
 
         .. autofunction:: tabslash.tabslash.foo(a, b, /)
 
 
 .. tabs:: 
-    .. group-tab:: no-slash
+    .. group-tab:: |api_ess|
 
         .. autofunction:: tabslash.tabslash.bar
 
-    .. group-tab:: with-slash
+    .. group-tab:: |api_full|
 
         .. autofunction:: tabslash.tabslash.bar(a, /, b, *, c=1)
 
@@ -32,9 +32,15 @@ Welcome to tabslash's documentation!
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
+
+
+.. |api_ess| replace:: API Essentials
+
+.. |api_full| replace:: Full API Details
+
